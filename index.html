@@ -11,14 +11,21 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/img.jpg" alt="">
+                
             </div>
-            <div>
+            <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post">
+                    <input class="nome" type="text" name="nome" id="inome" required placeholder="Seu nome">
+                    <label for="inome"></label>
 
-                    
+                    <input class="senha" type="password" name="senha" id="isenha" required minlength="8" placeholder="sua senha">
+                    <label for="isenha"></label>
+
+                     <input type="button" value="entrar" class="btn-entrar">
+                     <input type="button" value="Esqueci minha senha" class="btn-senha">
+
                 </form>
             </div>
 
