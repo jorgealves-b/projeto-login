@@ -19,17 +19,22 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="login.php" method="post" autocomplete="email">
-                    <span class="material-symbols-outlined">
-                        badge
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="div-email">
+                        <span id="symbol-email" class="material-symbols-outlined">
+                            badge
                         </span>
-                    <input class="nome" type="email" name="login" id="ilogin" required placeholder="Seu E-mail">
-                    <label for="inome">Nome</label>
-                    <span class="material-symbols-outlined">
-                        vpn_key
+                        <input class="nome" type="email" name="login" id="ilogin" required placeholder="Seu E-mail">
+                        <label for="inome"></label>
+                        
+                    </div>
+                    <div class="div-senha">
+                        <span id="symbol-senha" class="material-symbols-outlined">
+                            vpn_key
                         </span>
-                    <input class="senha" type="password" name="senha" id="isenha" required minlength="8" placeholder="sua senha" autocomplete="current-password">
-                    <label for="isenha">Senha</label>
+                        <input class="senha" type="password" name="senha" id="isenha" required minlength="8" placeholder="sua senha" autocomplete="current-password">
+                        <label for="isenha"></label>
+                    </div>
 
                     <input type="submit" value="entrar" class="btn-entrar">
                     <input type="button" value="Esqueci minha senha" class="btn-senha">
