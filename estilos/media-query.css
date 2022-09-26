@@ -37,13 +37,13 @@
     }
     
     section#login {
-        width: 992px;
+        width: 993px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
+
     }
     
     section#login > div#imagem {
-        float: right;
         width: 40%;
         height: 100%;
         
@@ -53,13 +53,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        float:left ;
     }
 
     form {
-        width: 80%;
+        width: 90%;
     }
 
     p {
-        width: 80%;
+        width: 90%;
     }
