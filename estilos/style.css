@@ -31,11 +31,11 @@ main {
 section#login {
     background-color: white;
     width: 300px;
-    height: 540px;
+    height: 580px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
-    transition: width 0.4s, height 0.4s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
@@ -84,7 +84,6 @@ form input {
     height: 100%;
     border: none;
     background-color: #a9f1ef;
-    padding-left:;
 }
 
 form input:focus-within {
